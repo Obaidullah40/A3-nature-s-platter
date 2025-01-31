@@ -6,11 +6,21 @@
 }
 #banner-img{
       position: relative;
-      animation: mymove 3s;
+      animation: imgmove 3s;
       animation-iteration-count: infinite;
 }
 
-@keyframes mymove {
+@keyframes imgmove {
       from {top: 0px;}
       to {top: 200px;}
+    }
+#move-h1{
+      position: relative;
+      animation: h1move 3s;
+      animation-iteration-count: 3;
+}
+
+@keyframes h1move {
+      from {left: 0px;}
+      to {left: 200px;}
     }
